@@ -1,0 +1,7 @@
+{
+    "name": "Erykah Wanga Portfolio",
+    "description": "A high-end, professional software engineering portfolio for Erykah Wanga, featuring an AI-powered resume assistant.",
+    "requestFramePermissions": [
+      "microphone"
+    ]
+  }
