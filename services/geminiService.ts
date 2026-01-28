@@ -5,7 +5,7 @@ import { RESUME_DATA, PROJECTS, EDUCATION, SKILLS } from '../constants';
 // For local development, you can set your key in the browser console:
 // window.LOCAL_API_KEY = 'your_key_here'
 const getApiKey = () => {
-  return process.env.API_KEY || (window as any).LOCAL_API_KEY || '';
+  return import.meta.env.VITE_API_KEY || (window as any).LOCAL_API_KEY || '';
 };
 
 const SYSTEM_INSTRUCTION = `
